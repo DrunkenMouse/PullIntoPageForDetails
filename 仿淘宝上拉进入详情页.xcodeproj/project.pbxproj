@@ -8,13 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		162C8E801DDBEA3100B4192B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 162C8E7F1DDBEA3100B4192B /* main.m */; };
-		162C8E831DDBEA3100B4192B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 162C8E821DDBEA3100B4192B /* AppDelegate.m */; };
-		162C8E861DDBEA3100B4192B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 162C8E851DDBEA3100B4192B /* ViewController.m */; };
-		162C8E891DDBEA3100B4192B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 162C8E871DDBEA3100B4192B /* Main.storyboard */; };
 		162C8E8B1DDBEA3100B4192B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 162C8E8A1DDBEA3100B4192B /* Assets.xcassets */; };
 		162C8E8E1DDBEA3100B4192B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 162C8E8C1DDBEA3100B4192B /* LaunchScreen.storyboard */; };
 		162C8E991DDBEA3100B4192B /* __________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 162C8E981DDBEA3100B4192B /* __________Tests.m */; };
 		162C8EA41DDBEA3100B4192B /* __________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 162C8EA31DDBEA3100B4192B /* __________UITests.m */; };
+		162C8EB91DDBEB3900B4192B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 162C8EB81DDBEB3900B4192B /* AppDelegate.m */; };
+		162C8EBF1DDBED2600B4192B /* ADOMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 162C8EBE1DDBED2600B4192B /* ADOMainViewController.m */; };
+		162C8EC21DDBEE1000B4192B /* ADOMenuTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 162C8EC11DDBEE1000B4192B /* ADOMenuTableView.m */; };
+		162C8EC51DDBEE6200B4192B /* ADOMenuWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 162C8EC41DDBEE6200B4192B /* ADOMenuWebView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,11 +38,6 @@
 /* Begin PBXFileReference section */
 		162C8E7B1DDBEA3100B4192B /* 仿淘宝上拉进入详情页.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "仿淘宝上拉进入详情页.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		162C8E7F1DDBEA3100B4192B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		162C8E811DDBEA3100B4192B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		162C8E821DDBEA3100B4192B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		162C8E841DDBEA3100B4192B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		162C8E851DDBEA3100B4192B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		162C8E881DDBEA3100B4192B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		162C8E8A1DDBEA3100B4192B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		162C8E8D1DDBEA3100B4192B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		162C8E8F1DDBEA3100B4192B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +47,14 @@
 		162C8E9F1DDBEA3100B4192B /* 仿淘宝上拉进入详情页UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "仿淘宝上拉进入详情页UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		162C8EA31DDBEA3100B4192B /* __________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "__________UITests.m"; sourceTree = "<group>"; };
 		162C8EA51DDBEA3100B4192B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		162C8EB71DDBEB3900B4192B /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		162C8EB81DDBEB3900B4192B /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		162C8EBD1DDBED2600B4192B /* ADOMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADOMainViewController.h; sourceTree = "<group>"; };
+		162C8EBE1DDBED2600B4192B /* ADOMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADOMainViewController.m; sourceTree = "<group>"; };
+		162C8EC01DDBEE1000B4192B /* ADOMenuTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADOMenuTableView.h; sourceTree = "<group>"; };
+		162C8EC11DDBEE1000B4192B /* ADOMenuTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADOMenuTableView.m; sourceTree = "<group>"; };
+		162C8EC31DDBEE6200B4192B /* ADOMenuWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADOMenuWebView.h; sourceTree = "<group>"; };
+		162C8EC41DDBEE6200B4192B /* ADOMenuWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADOMenuWebView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +105,9 @@
 		162C8E7D1DDBEA3100B4192B /* 仿淘宝上拉进入详情页 */ = {
 			isa = PBXGroup;
 			children = (
-				162C8E811DDBEA3100B4192B /* AppDelegate.h */,
-				162C8E821DDBEA3100B4192B /* AppDelegate.m */,
-				162C8E841DDBEA3100B4192B /* ViewController.h */,
-				162C8E851DDBEA3100B4192B /* ViewController.m */,
-				162C8E871DDBEA3100B4192B /* Main.storyboard */,
+				162C8EB61DDBEB3900B4192B /* Other */,
+				162C8EB11DDBEB0A00B4192B /* Controller */,
+				162C8EB41DDBEB0A00B4192B /* View */,
 				162C8E8A1DDBEA3100B4192B /* Assets.xcassets */,
 				162C8E8C1DDBEA3100B4192B /* LaunchScreen.storyboard */,
 				162C8E8F1DDBEA3100B4192B /* Info.plist */,
@@ -138,6 +140,35 @@
 				162C8EA51DDBEA3100B4192B /* Info.plist */,
 			);
 			path = "仿淘宝上拉进入详情页UITests";
+			sourceTree = "<group>";
+		};
+		162C8EB11DDBEB0A00B4192B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				162C8EBD1DDBED2600B4192B /* ADOMainViewController.h */,
+				162C8EBE1DDBED2600B4192B /* ADOMainViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		162C8EB41DDBEB0A00B4192B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				162C8EC01DDBEE1000B4192B /* ADOMenuTableView.h */,
+				162C8EC11DDBEE1000B4192B /* ADOMenuTableView.m */,
+				162C8EC31DDBEE6200B4192B /* ADOMenuWebView.h */,
+				162C8EC41DDBEE6200B4192B /* ADOMenuWebView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		162C8EB61DDBEB3900B4192B /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				162C8EB71DDBEB3900B4192B /* AppDelegate.h */,
+				162C8EB81DDBEB3900B4192B /* AppDelegate.m */,
+			);
+			path = Other;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,6 +233,7 @@
 		162C8E731DDBEA3100B4192B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = ADO;
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "王奥东";
 				TargetAttributes = {
@@ -248,7 +280,6 @@
 			files = (
 				162C8E8E1DDBEA3100B4192B /* LaunchScreen.storyboard in Resources */,
 				162C8E8B1DDBEA3100B4192B /* Assets.xcassets in Resources */,
-				162C8E891DDBEA3100B4192B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,9 +304,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				162C8E861DDBEA3100B4192B /* ViewController.m in Sources */,
-				162C8E831DDBEA3100B4192B /* AppDelegate.m in Sources */,
+				162C8EC51DDBEE6200B4192B /* ADOMenuWebView.m in Sources */,
 				162C8E801DDBEA3100B4192B /* main.m in Sources */,
+				162C8EC21DDBEE1000B4192B /* ADOMenuTableView.m in Sources */,
+				162C8EBF1DDBED2600B4192B /* ADOMainViewController.m in Sources */,
+				162C8EB91DDBEB3900B4192B /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,14 +344,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		162C8E871DDBEA3100B4192B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				162C8E881DDBEA3100B4192B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		162C8E8C1DDBEA3100B4192B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -425,6 +450,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "仿淘宝上拉进入详情页/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.aodong.----------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -436,6 +462,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "仿淘宝上拉进入详情页/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.aodong.----------";
 				PRODUCT_NAME = "$(TARGET_NAME)";

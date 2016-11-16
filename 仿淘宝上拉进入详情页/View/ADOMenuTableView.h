@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ADOMenuTableView.h
 //  仿淘宝上拉进入详情页
 //
 //  Created by 王奥东 on 16/11/16.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface ADOMenuTableView : UITableView<UITableViewDelegate,UITableViewDataSource>
 
 @end
-
